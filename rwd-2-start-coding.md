@@ -84,8 +84,10 @@ In class we will provide a review of the semantic structure and how this relates
  
  Using the content created over the last week, add it to `index.html` in the `About` and `Work` sections. 
 
-- **About me** – engaging text to attract and inform the user. 150 words maximum plus relevant links.
-- **Work experience** – details of your current and previous work experience or change this section to **Interests** in relation to your course. 200 words maximum. 
+- **About me** – 150 words maximum plus relevant links.
+
+- **Topic** – 200 words maximum. 
+
 - Please note the word counts - students do lose marks for lack of effort.
 
 ### Tag up your content
@@ -100,7 +102,7 @@ Apply html *tags* to your content. Remember to use headings, paragraphs, links, 
 - Create space with `<p>`, don't have big blocks of text (a single paragraph).
 - Use lists and tables if appropriate.
 
-> **No CSS** - at this point do not apply any CSS. With your browser at mobile size, view your content as you apply the html. Your browser will apply its default styles. The page should display reasonably well with these styles. You will apply you own styling later.  
+> **No CSS** - at this point do not apply any CSS. With your browser at mobile size, view your content as you apply the html. Your browser will apply its default styles. The page should display reasonably well with these styles. You will apply your own styling later.  
 
 ### Metadata
 
@@ -157,7 +159,7 @@ Find the above comment in `layout.css` and [add the border box model CSS code fr
 
 You will remember that by default browsers define a box size as `width or height + padding + border` = actual width or height. Applying `box-sizing: border-box;` means the width or height includes any padding and/or border. This tends to make life easier - you want a 200px wide box, that's what you now get. For a more detailed explanation see [Box Sizing explained on CSS Tricks](https://css-tricks.com/box-sizing/).
 
-At the moment this won't make any difference to you page. This comes later. 
+At the moment this won't make any difference to you page. That comes later. 
 
 ### Flexible images
 
@@ -191,7 +193,7 @@ There are some drawbacks.
 
 We would like you to select either a single Google Font for both your headings and text, or a pair of complementary fonts (one for headings, one for the text). 
 
-Read the [MDN Web Fonts article for much more detail](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) if you would like a deeper understanding of what web fonts are, and how they are implemented. Please note that by using Google Fonts we are not asking you to download the fonts you are using, as described in the article.
+Please note that by using Google Fonts we are not asking you to download the fonts you are using. Add the link (you can use one link for both fonts if you select 2) to your HTML and the fonts to your `font-family`.
 
 ### Selecting and adding your Google Font(s)
 

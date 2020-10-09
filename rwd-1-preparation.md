@@ -1,4 +1,4 @@
-# RWD - Week One
+# RWD - Getting started
 
 ## Developing content for your portfolio
 
@@ -12,19 +12,19 @@ Well written content and high quality media is essential for the success of your
 
 ### The theme of your content
 
-For simplicity we’re asking you to develop the content for your portfolio based on yourself and your job.
+For simplicity we’re asking you to develop the content for your portfolio based on a topic of your choice. It could include your work, hobbies, holidays or other interest. The content including text and images must be original - created by you.
 
-- **About me** – engaging text to attract and inform the user. Mindful of Search Engine Optimization (SEO), using relevant keywords and such. Tell the reader something about yourself. 150 words maximum. You may want to include links to your social media feeds in this section if you have them.
+- **About me** – About me – engaging text to attract and inform the user about the author of this page. You should be mindful of Search Engine Optimisation (SEO), using relevant keywords and metadata. You may want to include links to your social media feeds in this section if you have them. 150 words maximum.
 
-- **Work experience** – details of your current and previous work experience. Include relevant links and media. 200 words maximum. **NOTE** - If you have no work experience change this section to **Interests** in relation to your course.
+- **Topic Title** – Again engaging text about your chosen topic. Include relevant links. 200 words maximum. 
 
-However, in recent years some students have created successful pages by making a particular theme from work or home (a hobby) as the focus. If you would prefer to do this, **please agree the topic with tutors before proceeding any further**.  
+In recent years some students have created successful pages by selecting a particular theme from work or home life, hobbies, sports, holidays or obsessions (often their cars). If in doubt, talk to the tutors.
 
 ## Original images for the gallery
 
 It is important that your portfolio includes original media. Everyone has a camera in their pocket: be creative, take some original photos to illustrate your theme and to engage the user.
 
-- Take or create three original images to illustrate things important to you.
+- Take or create three original images to illustrate your chosen topic.
 - Usually these are photographs (jpeg format).
 - If they are illustrations either gif, svg or png formats may be more relevant.
 - If they can all be the same orientation (landscape or portrait) it does make things simpler, but is not essential.
@@ -36,7 +36,7 @@ It is important that your portfolio includes original media. Everyone has a came
 
 - If you are struggling to create a high quality hero image (you really should try) - you can download and use [a free hero image from Unsplash](https://unsplash.com/search/photos/hero-image). 
 
-- Any images used MUST be copyright free and preferably available under the Creative Commons licence.
+- Any Unsplah image used MUST be copyright free and preferably available under the Creative Commons licence.
 
 - Remember to keep the full size original images - always edit copies.
 
@@ -50,7 +50,7 @@ Many students mistakenly feel that they can use any image that they find through
 
 We are encouraging you to create and use your own media. If you do use a non-original image then we would like you to use [a free hero image from Unsplash](https://unsplash.com/search/photos/hero-image) because we know these are copyright free.
 
-You should always credit the creator.
+You should always credit the creator. On the page or in your code.
 
 ### Code
 
@@ -77,18 +77,18 @@ If the legal and ethical aspects interest you, follow our friend [Heather Burns 
 
 ## Notes
 
-Try to have your text ready for Week Two and images for Week Three.
+Try to have your text and images ready asap.
 
 As the project proceeds, and you can see how your site is evolving, students often decide to *upgrade* (improve) their text and images before the final submission. You don't have to stick with the content created in the initial weeks.
 
-## Task 1 - Mood board
+## Mood board
 
-To kick off the design process create a mood board to collate influences and ideas for the portfolio page you are about to create. This will include:
+One way to kick off the design process create a mood board to collate influences and ideas for the portfolio page you are about to create. This will include:
 
 * Colours 
 * Typography
 
-Use your 6 photographs as the starting point. Sample some of the colours, looking for a theme. Also start to think about a 'hero' image. Do you already have a suitable image? Do you need to create one?
+Use your photographs as the starting point. Sample some of the colours, looking for a theme. Also start to think about a 'hero' image. Do you already have a suitable image? Do you need to create one?
 
 The influences may be digital or physical.
 
