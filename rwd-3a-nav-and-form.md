@@ -7,7 +7,7 @@
 * [Task 3 - Reviewing the form HTML](#Task-3---Reviewing-the-form-HTML) 
 * [Task 4 - Styling the form](#Task-4---Styling-the-form)
 * [Task 5 - Room for improvement](#Task-5---Room-for-improvement)
-* [Checklist](#Week-5---Checklist)
+* [Checklist](#RWD-3a---Checklist)
 
 ## Task 1 - Reviewing the navigation HTML
 
@@ -466,7 +466,7 @@ If you check in enough browsers (e.g. really old versions of Internet Explorer) 
 
 We will be viewing your site in the latest version of Chrome, Firefox or mobile Safari when we assess it, and will be able to distinguish between browser bugs – which we don’t expect you to try and fix – and mistakes in your code that should have been caught in your validation and checking – which we do expect you to have removed before you submit your work to us.
 
-## Week 5 - Checklist
+## RWD 3a - Checklist
 
 - Task 1 reviews the navigation HTML - make sure you understand this before applying the CSS.
 - Task 2 styles the navigation with Flexbox.
