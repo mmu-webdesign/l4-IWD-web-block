@@ -1,4 +1,4 @@
-# RWD Week Eight and Nine · JavaScript
+# RWD 4 - JavaScript
 
 ## Adding the time-based message code
 
