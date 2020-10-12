@@ -1,4 +1,4 @@
-# RWD Week Two
+# RWD 1a - Start Coding
 
 ## Starting your portfolio page
 
@@ -12,7 +12,7 @@ You are going to develop a single page portfolio. This one page introduces you t
 * [Task 4 - The CSS re-set](#Task-4---The-CSS-re-set)
 * [Task 5 - Selecting and adding Google Fonts](#Task-5---Selecting-and-adding-Google-Fonts)
 * [Task 6 - Selecting a colour scheme](#Task-6---Selecting-a-colour-scheme)
-* [Checklist](#Week-2-Checklist)
+* [Checklist](#RWD-1a-Checklist)
 
 ---
 
@@ -183,7 +183,7 @@ Remember to add comments as you further develop your CSS to ensure developers (a
 
 ## Task 5 - Selecting and adding Google Fonts
 
-Web Fonts offer a much wider array of options beyond the basic web safe font families. It is now possible to create or buy Web Fonts to enhance the design of your site. Google Fonts provides a free and easy to use option. 
+As you already know, Web Fonts offer a much wider array of options beyond the basic web safe font families. It is now possible to create or buy Web Fonts to enhance the design of your site. Google Fonts provides a free and easy to use option. 
 
 There are some drawbacks. 
 
@@ -243,7 +243,7 @@ h2 {
 }
 ```
 - Add a font-size in rems.
-- Remember that 1rem equals the font size of the html element (which for most browsers has a default value of 16px).
+- Remember that 1rem equals the font size of the html element (which for most browsers has a default value of 16px). You can use the 10px trick o make things easy.
 - Experiment with the values below, adjusting them to sizes that suit your design.
 
 > For example as your design evolves you will find the padding for your h2 will need adjusting to create space.
@@ -330,13 +330,13 @@ On our [illustration of the layout (pdf)](design-templates/apprentice-website-st
 
 [Research a colour scheme - try coolors.co](https://coolors.co/). 
 
-> Choose one primary colour and use tints and shades of that colour for the backgrounds. You may also want to select an accent colour.
+> Choose one primary colour and use tints and shades of that colour for the backgrounds. You may also want to select an accent colour. 
 
  **Don't create a colour scheme full of strong colours**.
 
 **Colour contrast** - check that that each colour/tint has a strong contrast with your text colour. Test each section colour by using [Lea Verou's Contrast ratio checker](http://contrast-ratio.com/). You are looking for a AAA (green) pass for each section. 
 
-We will apply the colours next week.
+We will apply the colours later.
 
 If you want to learn more [read Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/). This will help in selecting your palette, including selecting primary and accent colours.
 
@@ -370,11 +370,11 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 
 ---
 
-## Week 2 Checklist
+## RWD 1a Checklist
 
 ### Are you up to date?
 
-Before you start Week 3 - Have you completed everything?
+Before you start RWD 1b - Have you completed everything?
 
 - Download the template files from GitHub
 - Define the site in Visual Studio Code and view the files (`index.html`and `layout.css`)
@@ -385,7 +385,7 @@ Before you start Week 3 - Have you completed everything?
 - Validate to check for errors.
 - Add the box sizing and flexible image CSS re-sets.
 - Select and add your Google fonts.
-- Select a colour scheme ready for implementing next week.
+- Select a colour scheme ready for implementing next.
 
 And finally:
 

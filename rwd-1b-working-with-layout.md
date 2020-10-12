@@ -1,9 +1,7 @@
-# RWD Week Three
-
-## Working with layout
+# RWD 1b - Working with layout
 
 ### Before you start - Are you up to date?
-Before you proceed, use the check list found at the bottom of Week Two. Have you completed everything?
+Before you proceed, use the check list found at the bottom of 1a. Have you completed everything?
 
 - Fix any problems before you continue.
 - Keep your browser window small - don't use it at full screen yet. We are still *mobile first*.
@@ -14,7 +12,7 @@ Before you proceed, use the check list found at the bottom of Week Two. Have you
 * [Task 2 - Add the 'big header'](#Task-2---Add-the-big-header)
 * [Task 3 - Background colours](#Task-3---Background-colours) 
 * [Task 4 - Styling the footer](#Task-4---Styling-the-footer)
-* [Checklist](#Week-3-Checklist)
+* [Checklist](#RWD-1b-Checklist)
 
 ---
 
@@ -299,11 +297,11 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 
 ---
 
-## Week 3 Checklist
+## RWD 1b Checklist
 
 ### Are you up to date?
 
-Before you start Week 4 - Have you completed everything?
+Before you start next Week - Have you completed everything?
 
 - You created a flexible column for the content of your `<section>`s. You have adjusted the `padding`, ``max-width`` and other elements to ensure your content looks good in a mobile viewport, but does not let the line length of your text go beyond (around) 65 characters.
 - You should have styled *the big header* by apply the supplied styles, making adjustments as directed.
