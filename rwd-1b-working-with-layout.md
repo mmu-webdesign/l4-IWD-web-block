@@ -1,4 +1,4 @@
-# RWD 1b - Working with layout
+# RWD 3 - Working with layout
 
 ### Before you start - Are you up to date?
 Before you proceed, use the check list found at the bottom of 1a. Have you completed everything?
@@ -12,7 +12,7 @@ Before you proceed, use the check list found at the bottom of 1a. Have you compl
 * [Task 2 - Add the 'big header'](#Task-2---Add-the-big-header)
 * [Task 3 - Background colours](#Task-3---Background-colours) 
 * [Task 4 - Styling the footer](#Task-4---Styling-the-footer)
-* [Checklist](#RWD-1b-Checklist)
+* [Checklist](#RWD-3---Checklist)
 
 ---
 
@@ -297,7 +297,7 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 
 ---
 
-## RWD 1b Checklist
+## RWD 3 - Checklist
 
 ### Are you up to date?
 

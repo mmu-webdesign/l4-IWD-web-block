@@ -1,4 +1,4 @@
-# RWD 5b - Making a video header
+# RWD 8 - Making a video header
 
 ## Background research on another website
 

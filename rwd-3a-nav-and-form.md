@@ -1,4 +1,4 @@
-# RWD 3a - Navigation and the form
+# RWD 4 - Navigation and the form
 
 ## Contents
 
@@ -7,7 +7,7 @@
 * [Task 3 - Reviewing the form HTML](#Task-3---Reviewing-the-form-HTML) 
 * [Task 4 - Styling the form](#Task-4---Styling-the-form)
 * [Task 5 - Room for improvement](#Task-5---Room-for-improvement)
-* [Checklist](#RWD-3a---Checklist)
+* [Checklist](#RWD-4---Checklist)
 
 ## Task 1 - Reviewing the navigation HTML
 

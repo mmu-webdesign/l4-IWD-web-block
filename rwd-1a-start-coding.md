@@ -1,4 +1,4 @@
-# RWD 1a - Start Coding
+# RWD 2 - Start Coding
 
 ## Starting your portfolio page
 
@@ -12,7 +12,7 @@ You are going to develop a single page portfolio. This one page introduces you t
 * [Task 4 - The CSS re-set](#Task-4---The-CSS-re-set)
 * [Task 5 - Selecting and adding Google Fonts](#Task-5---Selecting-and-adding-Google-Fonts)
 * [Task 6 - Selecting a colour scheme](#Task-6---Selecting-a-colour-scheme)
-* [Checklist](#RWD-1a-Checklist)
+* [Checklist](#RWD-2---Checklist)
 
 ---
 
@@ -370,7 +370,7 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 
 ---
 
-## RWD 1a Checklist
+## RWD 2 - Checklist
 
 ### Are you up to date?
 

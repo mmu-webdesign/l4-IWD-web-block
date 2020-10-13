@@ -1,4 +1,4 @@
-# RWD 2 - Adding your media
+# RWD 4 - Adding your media
 
 ## Contents
 
@@ -9,7 +9,7 @@
 * [Task 5 - Using `figure` and `figcaption`](#Task-5---Using-figure-and-figcaption)
 * [Task 6 - Introduction to media queries](#Task-6---introduction-to-media-queries)
 * [Task 7 - A responsive image gallery](#Task-7---A-responsive-image-gallery)
-* [Checklist](#RWD-2-Checklist)
+* [Checklist](#RWD-4---Checklist)
 
 ---
 
@@ -560,7 +560,7 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 
 ---
 
-## RWD 2 Checklist
+## RWD 4 - Checklist
 
 ### Are you up to date?
 

@@ -1,4 +1,4 @@
-# RWD 4 - JavaScript
+# RWD 6 - JavaScript
 
 ## Adding the time-based message code
 
