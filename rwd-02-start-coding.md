@@ -32,7 +32,6 @@ You are going to develop a single page portfolio. This one page introduces you t
 - Using _Visual Studio Code_ - open folder to define on the `portfolio` folder. Open `index.html` and `layout.css`.
 
 > Where did you save the portfolio folder? Is it safe? Will it be backed up regularly? Will you lose all of your work if you accidentally delete the folder? Can you find it next week?
----
 
 [VIDEO - Demonstration of downloading and extracting the files, defining the site in Visual Studio Code, testing and viewing in a browser.](https://youtu.be/h5Tvh7dPPxs) 
 
