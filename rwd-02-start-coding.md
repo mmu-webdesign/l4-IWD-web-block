@@ -392,6 +392,6 @@ And finally:
 - Fix any problems before you continue.
 - Keep your browser window small - don't use it at full screen yet. We are still *mobile first*.
 
-**End**
+
 
 

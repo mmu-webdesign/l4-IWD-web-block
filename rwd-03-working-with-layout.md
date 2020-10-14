@@ -310,6 +310,6 @@ Before you start next Week - Have you completed everything?
 
 > Test everything at mobile and desktop widths. Fix any problems before you continue.
 
-**End**
+
 
 
