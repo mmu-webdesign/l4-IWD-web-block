@@ -35,6 +35,12 @@ You are going to develop a single page portfolio. This one page introduces you t
 
 [VIDEO - Demonstration of downloading and extracting the files, defining the site in Visual Studio Code, testing and viewing in a browser.](https://youtu.be/h5Tvh7dPPxs) 
 
+#### Key points
+
+- Put the folder `portfolio` somewhere safe.
+
+- It is the folder `portfolio` that you will be submitting.
+
 ---
 
 - Test `index.html` in a browser. 
@@ -53,7 +59,10 @@ The `portfolio` folder is the root of your website. This will contain all the fi
 
 
 ### Working *mobile first*
->Keep your browser window small (mobile size - no more than half) - don't develop your site with your browser set to fill the screen - we are developing *mobile first*.
+
+**Important**
+
+> Keep your browser window small (mobile size - no more than half) - don't develop your site with your browser set to fill the screen - we are developing *mobile first*.
 
 ### MS Windows specific issues
 
@@ -63,7 +72,7 @@ The `portfolio` folder is the root of your website. This will contain all the fi
 
 On Windows computers, you might have trouble seeing the file names, because Windows has an option called Hide extensions for known file types turned on by default. Generally you can turn this off by going to Windows Explorer, selecting the Folder options... option, unchecking the Hide extensions for known file types checkbox, then clicking OK. For more specific information covering your version of Windows, you can search on the web.
 
-Also, for the moment **avoid using MicroSoft Edge** browser. Edge has security features that makes it hard to use *local files*, i.e. viewing/linking a HTML file on your own computer. 
+Also, for the moment **avoid using MicroSoft Edge** browser. Edge may still have security features that makes it hard to use *local files*, i.e. viewing/linking a HTML file on your own computer. 
 
 **Avoid MS Explorer altogether!** Use Chrome or Firefox. You can test on other browsers later.
 
