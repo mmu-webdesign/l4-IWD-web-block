@@ -2,7 +2,7 @@
 
 ## Developing content for your portfolio
 
-We need you to start creating content for the 'responsive' portfolio web site you are about to develop over the coming weeks for assignment two.
+We need you to start creating content for the 'responsive' portfolio web site you are about to develop over the coming weeks for **Assessment Two**.
 
 [Heidi Cohen](https://twitter.com/heidicohen) describes content as:
 

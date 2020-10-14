@@ -22,10 +22,13 @@ You are going to develop a single page portfolio. This one page introduces you t
 > **Download** - [The IWD Template Portfolio Site](https://github.com/mmu-webdesign/l4-IWD-web-term-2-template)
 
 ### Instructions
-- Select the green _Clone or download_ button, select _Download ZIP_. Locate the ZIP file and extract the contents.
-Extract the folder to a safe location on your computer.
-- Rename the folder `portfolio`. 
-- Delete the README.md file.
+- Select the green _Clone or download_ button, select _Download ZIP_. 
+- A file called `l4-IWD-web-term-2-template-master.zip` will download.
+- Locate the ZIP file and extract the contents.
+- Extract the folder to a safe location on your computer.
+- A folder called `l4-IWD-web-term-2-template-master` will be created.
+- You want the folder `portfolio` inside. 
+- Move this folder to a safe location on your computer.
 - Using _Visual Studio Code_ - open folder to define on the `portfolio` folder. Open `index.html` and `layout.css`.
 
 > Where did you save the portfolio folder? Is it safe? Will it be backed up regularly? Will you lose all of your work if you accidentally delete the folder? Can you find it next week?
