@@ -113,7 +113,9 @@ Apply html *tags* to your content. Remember to use headings, paragraphs, links, 
 - Create space with `<p>`, don't have big blocks of text (a single paragraph).
 - Use lists and tables if appropriate.
 
-> **No CSS** - at this point do not apply any CSS. With your browser at mobile size, view your content as you apply the html. Your browser will apply its default styles. The page should display reasonably well with these styles. You will apply your own styling later.  
+
+>**No CSS** - at this point do not apply any CSS. With your browser at mobile size, view your content as you apply the html. Your browser will apply its default styles. The page should display reasonably well with these styles. You will apply your own styling later.  
+
 
 ### Metadata
 
@@ -351,7 +353,9 @@ We will apply the colours later.
 
 If you want to learn more [read Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/). This will help in selecting your palette, including selecting primary and accent colours.
 
-> **Video** - Derren selects the colour scheme for his demonstration site using his magic colour scheme try out machine.
+### Colour Scheme Try Out Machine
+
+To help you develop and test a colour scheme Derren has created a handy tool which you can use to apply your chosen colours on a block of text and a link. It will also check the colour contrast ratio between the foreground and background.
 
 [Link to the Magic Colour Scheme Try Out Machine](https://55060509.webdevmmu.uk/colour-chooser/colour-chooser/acw2.html).
 
