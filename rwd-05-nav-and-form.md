@@ -448,13 +448,18 @@ At this point you need to take stock and review what you’ve done.
 
 In terms of the design, scroll up and down your entire site a few times, and imagine you have never seen it before. If you visited this site for the first time, would you know what it was about? Is the site consistent? Does it communicate something about this person? Do the images work well with your overall colour scheme?
 
-Check the metadata in your HTML page: would it help someone find you if they Googled your name? Location? Occupation? Hobbies?
+Try the *5-second* test again with friends.
+
+Check the metadata in your HTML page. Would it help someone find you if they Googled your name? Location? Occupation? Hobbies?
 
 Your CSS should be nearly complete. Is it readable, and logically ordered? Have you commented your code so that another developer could understand what you've done and why? (You don’t have to comment every single line, but commenting helps to separate sections and describe complex code) Are your breakpoints consistent?
 
 Test and validate your work and fix any errors. Test your site in as many devices as you can find, using tools like [prepros.io](https://prepros.io/) or the [responsive device mode in Chrome](https://developers.google.com/web/tools/chrome-devtools/device-mode/) or the similar [responsive device viewer in Firefox](https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode).
 
-At this point you should be critical about your work: is it as good as you can make it? How well does it measure up to other websites you use on a daily basis? What are the differences between what you’ve done and what professional websites look like? 
+
+> **Go live** - Get your site live using [netlify.com](https://www.netlify.com/). Sign up for a free account. Getting your little site live is a simple drag and drop process and takes seconds. Once live you have an URL, so you can now test your site on a variety of devices and screen sizes.
+
+At this point you should be critical about your work. Is it as good as you can make it? How well does it measure up to other websites you use on a daily basis? What are the differences between what you’ve done and what professional websites look like? 
 
 ## Testing
 
