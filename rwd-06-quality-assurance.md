@@ -22,13 +22,13 @@ Things to check when going through our instructions
 
 Check the basics:
 
-- relevant alt text for all images
+- Relevant alt text for all images
 - If an image is *fluff* use a null alt [*Fluff* - images that are purely decoration and do not add anything to the content of the document]
-- colour contrast
-- accessible form (use of 'label for')
-- legibility and readability
-- logical structure
-- use of semantics
+- Colour contrast
+- Accessible form (use of 'label for')
+- Legibility and readability
+- Logical structure
+- Use of semantics
 
 More advanced than this unit, but you could use the[ WCAG 2 checklist from WebAIM](https://webaim.org/standards/wcag/checklist). You won't understand everything, and not everything will be relevant to your site, but still worth a look.
 
@@ -72,7 +72,7 @@ You can also target specific paragraphs with styles like `.about-me p {padding-b
 
 Have you added padding to your sections? The page can look cramped if you let the sections follow immediately after each other.
 
->**Tip** - Derren prefers to set margins to zero and adjust padding in most cases. This keeps things simpler in most cases.
+>**Tip** - Derren prefers to set margins to zero and adjust padding. This keeps things simpler.
 
 Remember to keep text away from edges. Text running up against borders/edges is hard to read.
 
@@ -82,16 +82,16 @@ Your CSS file can become rather long and complicated. It's not uncommon to start
 
 Derren gives you some tips on how he approaches the order of his CSS files.
 
-- Resets
-- Very basic styles for elements (e.g. h1, h2, p): nothing too opinionated though - no colours or styling
--Then break the page up into sections and style each one, e.g.
+1. Resets
+1. Very basic styles for elements (e.g. h1, h2, p): nothing too opinionated though - no colours or styling
+1. Then break the page up into sections and style each one, e.g.
     - All styles for header
     - All styles for page sections
     - All styles for footers
 
-- So that I know if I'm in the middle of the stylesheet, it'll be the CSS for the middle of the page. 
-- The last thing in the stylesheet will probably be the footer.
-- Use lots of comments in your stylesheet that break up the code and label the page sections.
+1. So that I know if I'm in the middle of the stylesheet, it'll be the CSS for the middle of the page. 
+1. The last thing in the stylesheet will probably be the footer.
+1. Use lots of comments in your stylesheet that break up the code and label the page sections.
 
 ## SEO - your content
 
@@ -126,6 +126,8 @@ Not for everyone, but worth a try. You can use Prepros to set up  a developer en
 
 *   [Using live preview with Prepros](https://prepros.io/help/live-preview)
 
+As we've already suggested, using [netlify.com](https://www.netlify.com/) to get your site live is a great way to test your site on a variety of screens.
+
 ## Files and folders
 
 An important aspect of web development is file management. A clean, well structured site is essential.
@@ -135,6 +137,8 @@ An important aspect of web development is file management. A clean, well structu
 >We want your html page to be called **index.html** - it's always suprising how many students miss this! 
 
 You should use and maintain the folder structure provided. If all of your files are sitting on the root of your site, there is something wrong!
+
+Wew will be asking you to submit the `portfolio` folder, renamed with your ID and name. E.g. `22334455-wilson.zip`
 
 ## Check list
 
@@ -178,4 +182,3 @@ SVG is an excellent option because it is purely code (no image file needed). Thi
 Want to know more about SVG? Read the [MDN guide to Adding vector graphics to the Web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web).
 
 
-[Return to the Top](#RWD-Week-Six)
