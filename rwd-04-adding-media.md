@@ -15,7 +15,7 @@
 
 ## Task 1 - Review `page-header`
 
-In the previous class we provided the CSS for the large page header. You may have adjusted this already, especially the background colour.
+In the previous chapter we provided the CSS for the large page header. You may have adjusted this already, especially the background colour.
 
 ```
 .page-header {
@@ -35,7 +35,7 @@ Lets define this more clearly. Whilst `background` can be used as the shorthand,
 
 Edit your CSS - Change to `background-color`.
 ```
-background-color: #ADD YOUR COLOUR;
+background-color: #YOUR COLOUR;
 ```
 
 Next in our CSS is `display-flex`. 
@@ -51,7 +51,7 @@ At `90vh` our header is using 90% of the height of the browser window on the dev
 ```
 min-height: 40vh;
 ```
- **Note** - we've changed to `min-height` to future-proof our CSS - if you use height it'll get cut off if the content gets longer than its container. That situation will probably never happen, but better safe than sorry.
+ **Note** - we've changed to `min-height` to future-proof our CSS - if you use just `height` it'll get cut off if the content gets longer than its container. That situation will probably never happen, but better safe than sorry.
 
 Finally we have applied `align-items: center` and `justify-content: center` to our flexbox.
 
@@ -76,9 +76,10 @@ If you want to know more about what is going on read the following articles on C
 
 You need a large image added to your site in an images or media folder. The image needs to be high quality, but that does not mean just use the 3Mb (or larger) file from your camera.
 - Resize your image to 3000 pixels wide (this ensures high quality on the best screen). The height should remain relative.
-- Optimize your image for the web. At these dimensions it may still be hundreds of kbs. If it is 1mb or more it is probably too big and can be further optimised.
 
-You can return to this and adjust size and optimisation later.
+> This means you need to start with an image that is 3000 or more pixels wide. You can't make an image bigger!
+
+- Optimize your image for the web. At these dimensions it may still be hundreds of kbs. If it is 1mb or more it is probably too big and can be further optimised. Don't forget to also use [Tiny JPG](https://tinyjpg.com/).
 
 Insert your image to the class `.page-header `.
 
@@ -105,9 +106,9 @@ background-size: cover;
 
 Save and review. How is your *hero* looking?
 
-For more details -  [CSS Trick article on background-size](https://css-tricks.com/almanac/properties/b/background-size/).
+> For more details -  [CSS Trick article on background-size](https://css-tricks.com/almanac/properties/b/background-size/).
 
-And finally read up on background-position on MDN. You then need to decide what position works best for your image/design.
+And finally read up on [background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position) on MDN. You then need to decide what position works best for your image/design.
 
 Select either `bottom`, `center`, `left`, `right` or `top`. Or adjust with percentage or length volues.
 
@@ -118,15 +119,17 @@ background-position:center;
 ```
 How you position your hero image will depend on the image you have chosen and the positioning of your heading and tag line. Experiment with a few images if you can.
 
-### Additional notes
+### Reminders
 
-> Before you start - Remember to keep the full size original image. Edit and optimise a copy.
+- Before you start - Remember to keep the full size original image. Edit and optimise a copy.
 
 - Squoosh is an excellent online image optimisation tool. [Visit squoosh.app](https://squoosh.app) to resize and compress your images.
+
 - There are some more online tools to both [resize the big header image](http://www.simpleimageresizer.com/) and [compress the image](https://tinyjpg.com/) without necessarily needing Photoshop or [Figma](https://www.figma.com).
+
 - *Alt text* - background images do not have (or need) alt text. However, that means you should not *hide* anything in the image you need your user to read.
 
-If you haven't yet created a high quality hero image (you really should try) - you can download and use [a free hero image from Unsplash](https://unsplash.com/search/photos/hero-image). For the final submission we expect* your own, original images for this assignment.
+If you haven't yet created a high quality hero image (you really should try) - you can download and use [a free hero image from Unsplash](https://unsplash.com/search/photos/hero-image). For the final submission we expect`*` your own, original images for this assignment.
 
 `*` There may be a few exceptions - they must always be approved by tutors.
 
@@ -152,7 +155,11 @@ Now adjust your page header `background-color` to get a blend that works for bot
 
 You can also try out a number of the *blend modes*. Some work better than others. This [CodePen from CCS Tricks illustrates the differences](https://codepen.io/team/css-tricks/full/GgavOP). Read the full [background-blend-mode article](https://css-tricks.com/almanac/properties/b/background-blend-mode/) for more detail.
 
-Have a play with the options. Ultimately you can leave out the blend if it doesn't work for you.
+- Have a play with the options.
+
+- The blend may help with making your header text more visible on top of your image - see Task 4.
+
+- Ultimately you can leave out the blend if it doesn't work for you.
 
 ---
 
@@ -160,6 +167,8 @@ Have a play with the options. Ultimately you can leave out the blend if it doesn
 
 One problem of adding a background image to our header is that the text (our heading and tagline) often gets lost. 
 There are a number of clever ways to get around this issue. The first is to simply make the text colour white (or black if the image is pale). This is so obvious but many fail to implement this simple solution.
+
+You may have found using a blend in Task 3 has made the text more legible.
 
 The other simple method is to adjust the size of your heading and tagline.
 
@@ -177,12 +186,16 @@ You already have the following CSS fo your `.header-content`.
 }
 ```
 - Adjust `max-width` as fits your design.
+
 - `font-size: 1.35rem;` should already have been removed as it's  being trumped in the cascade as we have `font-size` defined for `<h1>` and `<p>` already in our CSS. We can target these particular items in a minute.
+
 - Change `color` if required. You can also remove it and later specify different colours for the heading and paragraph if needed.
+
 - `text-align: center;` centres our content. **Note** that if your *tag line* is more than a line or two long that you should consider applying a more specific style (see below) to left align for better readability.
+
 - Apply `padding` as fits your design. 
 
-**Tip** - adding `border: 1px solid red;` to this class may help you see how both `max-width` and the `padding` is working as you adjust them.
+> **Tip** - adding `border: 1px solid red;` to this class may help you see how both `max-width` and the `padding` is working as you adjust them.
 
 ### Getting specific
 
@@ -265,9 +278,7 @@ Inside the `image-container` you currently have  **three** `<div class="an-image
 </div>
 ```
 
-We would like you to remove these divs and replace them with two semantic elements. 
-
-The `figure` and `figcaption` elements. 
+We would like you to remove these divs and replace them with two semantic elements, `figure` and `figcaption`. 
 
 Whilst `class="an-image` gives us a hook to style, the actual `div` has no semantic meaning. Using both `figure` and `figcaption` provides some meaning to these elements of the page. 
 
@@ -287,7 +298,7 @@ The code you need for each of your images is as follows:
 - Adjust the file name and paths for your own images.
 
 ### Figure
-Using `<figure>` provides a semantic structure for what is described as *self contained content*.
+As you know using `<figure>` provides a semantic structure for what is described as *self contained content*.
 
 ```
 <figure class="an-image">
@@ -319,7 +330,7 @@ Read MDN articles for more information on the [`<figure>` element](https://devel
 
 ## Your gallery images
 
-> Your own images should be fully optimised ready for the web, and sat in the images folder. Optimised means cropped, resized and compressed as best fits you and your users needs.
+> Your own images should be fully optimised ready for the web, and sat in the images folder. Optimised means cropped (if required), resized and compressed as best fits you and your users needs.
 
 **Don't have your images yet?** Continue to use Usplash -  `<img src="https://unsplash.it/600">`
 
@@ -335,9 +346,13 @@ As we implement our gallery using `flexbox` (see below) you will have three imag
 
 For some, the images may be largest on desktop sizes, but for many it will be on mobile. For example, if the image is never displayed wider than 800px, resize the actual image to 800px width.
 
-#### Image optimisation
+#### Reminders
 
-Once you have your images at the correct dimensions you should optimise each image to improve download speeds. **And don't forget** the `alt` text for each image. 
+- Image optimisation - Once you have your images at the correct dimensions you should optimise each image to improve download speeds.
+
+- Height and width attributes - don't forget to add these to each `img` element.
+
+ - **And don't forget** to add relevant `alt` text for each image. 
 
 See the HTML in [Derren's image gallery CodePen](https://codepen.io/wilsondmmu/pen/mvVWVj) for reference.
 
