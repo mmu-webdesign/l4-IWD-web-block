@@ -458,7 +458,9 @@ At this point you should be critical about your work: is it as good as you can m
 
 ## Testing
 
-At the end of this session [validate your HTML](https://validator.w3.org/#validate_by_upload) and [validate your CSS](https://jigsaw.w3.org/css-validator/#validate_by_upload). **Fix any problems**.
+At the end of this chapter [validate your HTML](https://validator.w3.org/#validate_by_upload) and [validate your CSS](https://jigsaw.w3.org/css-validator/#validate_by_upload). 
+
+**Fix any problems**.
 
 ### A note about browsers
 

@@ -389,7 +389,7 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 
 ### Are you up to date?
 
-Before you start RWD 1b - Have you completed everything?
+Before you start the next chapter - Have you completed everything?
 
 - Download the template files from GitHub
 - Define the site in Visual Studio Code and view the files (`index.html`and `layout.css`)

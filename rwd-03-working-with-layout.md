@@ -1,10 +1,10 @@
 # RWD 3 - Working with layout
 
 ### Before you start - Are you up to date?
-Before you proceed, use the check list found at the bottom of 1a. Have you completed everything?
+Before you proceed, use the check list found at the bottom of **RWD 2**. Have you completed everything?
 
 - Fix any problems before you continue.
-- Keep your browser window small - don't use it at full screen yet. We are still *mobile first*.
+- **Keep your browser window small **- don't use it at full screen yet. We are still *mobile first*.
 
 ## Contents
 
@@ -18,9 +18,9 @@ Before you proceed, use the check list found at the bottom of 1a. Have you compl
 
 ## Task 1 - Adding a responsive column
 
-Use the [CSS styles in this CodePen](https://codepen.io/wilsondmmu/pen/PJQYZG) to create the responsive column of content as illustrated in the lecture. Apply these styles by creating the class `.container-content`.
+> Use the [CSS styles in this CodePen](https://codepen.io/wilsondmmu/pen/PJQYZG) to create the responsive column of content as illustrated in the lecture. Apply these styles by creating the class `.container-content`.
 
-> What we are attempting to create is a column of content that works well on mobile, and when at desktop sizes, does not become so wide that it creates an uncomfortable reading length.
+What we are attempting to create is a column of content that works well on mobile, and when at desktop sizes, does not become so wide that it creates an uncomfortable reading length.
 
 Add the class and styles to `layout.css` under the comment: 
 
@@ -47,9 +47,9 @@ Adjust the padding to best fit your font size and layout.
 
 **Note** this technique makes use of padding rather than margins. Because we are using `Box-sizing: Border-box`, padding is included in the size of our box.
 
-#### Width
+#### Width - Before you start
 
-**NOTE - BEFORE YOU START:** Adjust the **width** of your browser window to a normal desktop width rather than mobile size.
+Adjust the **width** of your browser window to a normal desktop width rather than mobile size.
 
 ```
 max-width: 600px;
@@ -75,9 +75,7 @@ You can comment out `* { border:1px solid red; } ` if applied (but it is handy f
 
 ## Task 2 - Add the 'big header'
 
->[This is the CSS code you'll need](https://codepen.io/wilsondmmu/pen/PJReqy).
-
-Copy the relevant code into your stylesheet: the 'class names' should already suit the template. Place under the comment:
+> Use the styles in this [CodePen for the Header](https://codepen.io/wilsondmmu/pen/PJReqy). Copy the relevant code into your stylesheet. The *class names* should already suit the template. Place under the comment:
 
 `/* page header */` 
 
@@ -178,14 +176,14 @@ Now add this css to the `/* page header */`
     font-size: 1rem;
 }
 ```
-If you chose to add a *call to action* this way, edit the above as required. If you don't, **you can remove this block of code**.
+If you chose to add a *call to action* this way, edit the above as required. If you don't, **you can remove this block of code**. Either way it does not effect your marks.
 
 ---
 
 Video - [Call to action button demonstration](https://youtu.be/s1iEaJGeNdM).
 
 
-**Note** - You should have a suitable 'hero' image to add using the CSS background declaration next week.
+**Note** - You should have a suitable 'hero' image to add using the CSS background declaration for the next chapter.
 
 ---
 
@@ -195,7 +193,7 @@ Our portfolio design uses a single page to deliver a variety of content. Whereas
 
 Commonly colour or images are used to define each section. This ensures that the user (as they travel down the page) feel and notice they are moving from one section to the next.
 
-[See how Apple use backgrounds to define sections on the current Mac page](https://www.apple.com/uk/mac/)  using subtle colours and (often) strong media.
+> See how [Apple use backgrounds to define sections>](https://www.apple.com/uk/mac/) on the current Mac page using subtle colours and (often) strong media.
 
 Use your colour scheme to provide contrast between your `<section>`s.
 
@@ -247,7 +245,7 @@ Copying and amending previously used `<header>` styles is a great starting point
 }
 ```
 
-It centres our footer content, we can add some height for effect (**NOT `90vh`!**), and we can apply a background colour. Just remember to apply it to `.page-footer` not the `.page-header` class.
+It centres our footer content, we can adjust the height for effect (**NOT `90vh`!**), and we can apply a background colour. Just remember to apply it to `.page-footer` not the `.page-header` class.
 
 If we use a background colour (especially a dark one) then we need to adjust the text colour to ensure good contrast. 
 
@@ -275,7 +273,7 @@ a:active {
 }
 ```
 
-> **Note** - Using the code above will apply styles to every link on the page including links in your menu, your text and the footer). 
+> **Note** - Using the code above will apply styles to every link on the page including links in your menu, your text and the footer. 
 
 If these styles are going to be specific to the footer you will need to add the *element selector* to each rule. For example:
 
@@ -286,14 +284,16 @@ footer a:link {
 ```
 We suggest you read through the example [styling some links at MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links#Styling_some_links). This item provides a good example that you might want to use to get started.
 
->"When styling links, it is important to understand how to make use of pseudo-classes to style link states effectively, and how to style links for use in common varied interface features such as navigation menus and tabs." 
+> "When styling links, it is important to understand how to make use of pseudo-classes to style link states effectively, and how to style links for use in common varied interface features such as navigation menus and tabs." 
 
 
 ---
 
 ## Testing
 
-At the end of this session [validate your HTML](https://validator.w3.org/#validate_by_upload) and [validate your CSS](https://jigsaw.w3.org/css-validator/#validate_by_upload). **Fix any problems**.
+At the end of this session [validate your HTML](https://validator.w3.org/#validate_by_upload) and [validate your CSS](https://jigsaw.w3.org/css-validator/#validate_by_upload). 
+
+**Fix any problems**.
 
 ---
 
@@ -301,7 +301,7 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 
 ### Are you up to date?
 
-Before you start next Week - Have you completed everything?
+Before you start the next chapter - Have you completed everything?
 
 - You created a flexible column for the content of your `<section>`s. You have adjusted the `padding`, ``max-width`` and other elements to ensure your content looks good in a mobile viewport, but does not let the line length of your text go beyond (around) 65 characters.
 - You should have styled *the big header* by apply the supplied styles, making adjustments as directed.
