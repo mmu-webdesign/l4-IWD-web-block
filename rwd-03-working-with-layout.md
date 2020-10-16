@@ -9,7 +9,7 @@ Before you proceed, use the check list found at the bottom of **RWD 2**. Have yo
 ## Contents
 
 * [Task 1 - Adding a responsive column](#Task-1---Adding-a-responsive-column)
-* [Task 2 - Add the 'big header'](#Task-2---Add-the-big-header)
+* [Task 2 - Add the big header](#Task-2---Add-the-big-header)
 * [Task 3 - Background colours](#Task-3---Background-colours) 
 * [Task 4 - Styling the footer](#Task-4---Styling-the-footer)
 * [Checklist](#RWD-3---Checklist)
@@ -73,7 +73,7 @@ You can comment out `* { border:1px solid red; } ` if applied (but it is handy f
 
 ---
 
-## Task 2 - Add the 'big header'
+## Task 2 - Add the big header
 
 > Use the styles in this [CodePen for the Header](https://codepen.io/wilsondmmu/pen/PJReqy). Copy the relevant code into your stylesheet. The *class names* should already suit the template. Place under the comment:
 
