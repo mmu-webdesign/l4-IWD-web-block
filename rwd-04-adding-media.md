@@ -2,18 +2,18 @@
 
 ## Contents
 
-* [Task 1 - Review `page-header`](#Task-1---Review-`page-header`)
+* [Task 1 - Review page-header](#Task-1---Review-page-header)
 * [Task 2 - Adding our *hero* image](#Task-2---adding-our-hero-image)
 * [Task 3 - Background blend mode](#Task-3---Background-blend-mode) 
-* [Task 4 - The `header-content`](#Task-4---The-header-content)
-* [Task 5 - Using `figure` and `figcaption`](#Task-5---Using-figure-and-figcaption)
+* [Task 4 - The header-content](#Task-4---The-header-content)
+* [Task 5 - Using figure and figcaption](#Task-5---Using-figure-and-figcaption)
 * [Task 6 - Introduction to media queries](#Task-6---introduction-to-media-queries)
 * [Task 7 - A responsive image gallery](#Task-7---A-responsive-image-gallery)
 * [Checklist](#RWD-4---Checklist)
 
 ---
 
-## Task 1 - Review `page-header`
+## Task 1 - Review page-header
 
 In the previous chapter we provided the CSS for the large page header. You may have adjusted this already, especially the background colour.
 
@@ -163,7 +163,7 @@ You can also try out a number of the *blend modes*. Some work better than others
 
 ---
 
-## Task 4 - The `header-content`
+## Task 4 - The header-content
 
 One problem of adding a background image to our header is that the text (our heading and tagline) often gets lost. 
 There are a number of clever ways to get around this issue. The first is to simply make the text colour white (or black if the image is pale). This is so obvious but many fail to implement this simple solution.
@@ -213,7 +213,7 @@ You can target your heading and tagline with more specific styles.
 ```
 You could adjust things like `font-size`, `color`, `padding-bottom` and `line-height` (if your heading wraps on mobile and there is a big gap between the words) and others that enhance your design. 
 
-### Adding the `text-shadow` property
+### Adding the text-shadow property
 
 The text-shadow property can help enhance the visibility of our headline text.
 
@@ -252,7 +252,7 @@ You can apply either of these techniques to your tagline paragraph as well. Adju
 
 ---
 
-## Task 5 - Using `figure` and `figcaption`
+## Task 5 - Using figure and figcaption
 
 
 You already have the following structure for your image gallery.
