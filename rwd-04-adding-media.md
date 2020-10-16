@@ -3,7 +3,7 @@
 ## Contents
 
 * [Task 1 - Review page-header](#Task-1---Review-page-header)
-* [Task 2 - Adding our *hero* image](#Task-2---adding-our-hero-image)
+* [Task 2 - Adding our hero image](#Task-2---adding-our-hero-image)
 * [Task 3 - Background blend mode](#Task-3---Background-blend-mode) 
 * [Task 4 - The header-content](#Task-4---The-header-content)
 * [Task 5 - Using figure and figcaption](#Task-5---Using-figure-and-figcaption)
@@ -72,7 +72,7 @@ If you want to know more about what is going on read the following articles on C
 
 ---
 
-## Task 2 - adding our *hero* image
+## Task 2 - adding our hero image
 
 You need a large image added to your site in an images or media folder. The image needs to be high quality, but that does not mean just use the 3Mb (or larger) file from your camera.
 - Resize your image to 3000 pixels wide (this ensures high quality on the best screen). The height should remain relative.
