@@ -12,12 +12,12 @@ Header – including site title and the navigation elements provided.
 About me – engaging text to attract and inform the user about the author of this page. You should be mindful of Search Engine Optimisation (SEO), using relevant keywords and metadata. 150 words maximum.
 
 ## Section Three
-The topic – again engaging text about your chosen topic. 200 words maximum.
+The topic – again engaging text about your chosen topic. 250 words maximum.
 
 ## Section Four
 Image Gallery – Insert three images to illustrate your chosen topic. 
 All images should be sized appropriately and optimized for the web.
-Create a 150 words (maximum) summary to accompany each image.
+Create a 100 words (maximum) summary to accompany each image.
 
 ## Section Five
 Contact form – contact form as provided.

@@ -16,7 +16,7 @@ For simplicity we’re asking you to develop the content for your portfolio base
 
 - **About me** – About me – engaging text to attract and inform the user about the author of this page. You should be mindful of Search Engine Optimisation (SEO), using relevant keywords and metadata. You may want to include links to your social media feeds in this section if you have them. 150 words maximum.
 
-- **Topic Title** – Again engaging text about your chosen topic. Include relevant links. 200 words maximum. 
+- **Topic Title** – Again engaging text about your chosen topic. Include relevant links. 250 words maximum. 
 
 In recent years some students have created successful pages by selecting a particular theme from work or home life, hobbies, sports, holidays or obsessions (often their cars). If in doubt, talk to the tutors.
 

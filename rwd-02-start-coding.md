@@ -104,7 +104,7 @@ In class we will provide a review of the semantic structure and how this relates
 
 - **About me** – 150 words maximum plus relevant links.
 
-- **Topic** – 200 words maximum. 
+- **Topic** – 250 words maximum. 
 
 - Please note the word counts - students do lose marks for lack of effort.
 

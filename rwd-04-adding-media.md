@@ -290,7 +290,7 @@ The code you need for each of your images is as follows:
 <figure class="an-image">
     <img src="images/your-file.jpg" alt="Relevant alt text" />
         <figcaption class="image-caption">
-          <p>Your 150 word caption.</p>
+          <p>Your 100 word caption.</p>
         </figcaption>
 </figure>
 ```
@@ -314,7 +314,7 @@ MDN describes `<figcaption>` as 'a caption or legend describing the rest of the 
 ```
 <figcaption class="image-caption">
 
-<p>Your 150 word caption.</p>
+<p>Your 100 word caption.</p>
 
 </figcaption>
 

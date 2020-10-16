@@ -17,7 +17,7 @@ A quick reminder of the HTML for our navigation.
 <nav class="page-nav">
      <ul>
         <li><a href="#about">About Me</a></li>
-        <li><a href="#work">Work Experience</a></li>
+        <li><a href="#work">Your Topic</a></li>
         <li><a href="#images">Image Gallery</a></li>
         <li><a href="#contact">Contact Me</a></li>
     </ul>
