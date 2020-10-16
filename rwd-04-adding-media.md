@@ -2,7 +2,7 @@
 
 ## Contents
 
-* [Task 1 - Review `page-header`](#Task-1---Review-page-header)
+* [Task 1 - Review `page-header`](#Task-1---Review-`page-header`)
 * [Task 2 - Adding our *hero* image](#Task-2---adding-our-hero-image)
 * [Task 3 - Background blend mode](#Task-3---Background-blend-mode) 
 * [Task 4 - The `header-content`](#Task-4---The-header-content)
