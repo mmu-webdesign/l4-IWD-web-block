@@ -17,7 +17,7 @@ The topic – again engaging text about your chosen topic. 250 words maximum.
 ## Section Four
 Image Gallery – Insert three images to illustrate your chosen topic. 
 All images should be sized appropriately and optimized for the web.
-Create a 100 words (maximum) summary to accompany each image.
+Create a 100 words (maximum) caption to accompany each image.
 
 ## Section Five
 Contact form – contact form as provided.
