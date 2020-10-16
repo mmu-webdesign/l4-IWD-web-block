@@ -4,6 +4,13 @@
 
 You are going to develop a single page portfolio. This one page introduces you to the basics of RWD (responsive web design), mobile first web development and further elements of page layout, typography, web design and coding.
 
+<figure>
+<img src="img/assessment-two.jpg" alt="Demo site on a variety of screen sizes">
+<figcaption>
+Derren's demonstration site - The Responsive Portfolio.
+</figcaption>
+</figure>
+
 ## Contents
 
 * [Task 1 - Getting started](#Task-1---Getting-started)
