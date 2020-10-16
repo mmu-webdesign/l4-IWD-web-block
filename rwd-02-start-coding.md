@@ -87,11 +87,11 @@ Also, for the moment **avoid using MicroSoft Edge** browser. Edge may still have
 
 ## Task 2 - Review of HTML template
 
-In class we will provide a review of the semantic structure and how this relates to the visual design of the template in class.
+This illustration of Derren's demonstration page relates the code for each semantic element of the page to what you see. Use this as a visual guide as you build your page and create your own versions of these elements, including the responsive menu and gallery.
 
 ### Download the PDF
 
->[Illustrated page layout & code structure](design-templates/apprentice-website-structure.pdf)
+> [Illustrated page layout & code structure](design-templates/apprentice-website-structure.pdf)
 
 ---
 
@@ -162,7 +162,7 @@ Neither your title, meta description or your main heading should contain the wor
 
 ## Before you go further
 
->[Validate your HTML coding](https://validator.w3.org/#validate_by_upload). Fix any problems continuing.
+> [Validate your HTML coding](https://validator.w3.org/#validate_by_upload). Fix any problems continuing.
 
 ---
 
@@ -338,7 +338,7 @@ As the project develops you will adjust and enhance these settings. You may spot
 
 ## Task 6 - Selecting a colour scheme
 
-On our [illustration of the layout (pdf)](design-templates/apprentice-website-structure.pdf) we have alternate grey and white background colours for each section, plus a black background for both the navigation and footer. We would like you to select an appropriate colour scheme for these contrasting areas. This would include colours for:
+On our [illustration of the layout (pdf)](design-templates/apprentice-website-structure.pdf) we alternate between white, chamois type yellow and grey background colours for each section, plus the navigation and footer. We would like you to select an appropriate colour scheme for these contrasting areas. This would include colours for:
 
 - Body text
 - Headings
