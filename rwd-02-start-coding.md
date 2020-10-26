@@ -50,14 +50,16 @@ Derren's demonstration site - The Responsive Portfolio.
 
 ---
 
+### Test the files
+
+> **DO NOT use Internet Explorer or MicroSoft Edge browsers**. Use Chrome and/or Firefox. Safari is OK, but can cause some issues.
+
 - Test `index.html` in a browser. 
 - Check `layout.css` is working by adding the line: 
 
 ```
 * { border:1px solid red; } 
  ```
-
-
 - Save `layout.css` and re-load `index.html` in the browser. Everything should get a red border. Yes? Then you can delete this line of CSS.
 
 ### Your *root* folder
