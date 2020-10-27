@@ -66,7 +66,7 @@ Code that can be shared often has explicit instructions in comments. Much code i
 * You must not use code from another student’s submission.
 * Whilst we encourage collaboration in the classroom, you must ensure your submission is your own.
 
-Finally you should evaluate the efficiency of any code you use. Do you know enough about this language to be able to tell if it well written or does it take a hundred lines to do what could be done in 5, or are there faster or more maintainable approaches?
+Finally you should evaluate the efficiency of any code you use. Do you know enough about this language to be able to tell if it is well written or does it take a hundred lines to do what could be done in 5, or are there faster or more maintainable approaches?
 
 For more information on Copyright read the UK government's document - [Copyright Notice: digital images,
 photographs and the internet](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/481194/c-notice-201401.pdf) 
