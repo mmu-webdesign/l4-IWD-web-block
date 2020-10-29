@@ -83,6 +83,8 @@ As the project proceeds, and you can see how your site is evolving, students oft
 
 ## Mood board
 
+> Note: This is a little extra, and not part of the assessment. If you don't know it or need inspiration give it a try.
+
 One way to kick off the design process create a mood board to collate influences and ideas for the portfolio page you are about to create. This will include:
 
 * Colours 
