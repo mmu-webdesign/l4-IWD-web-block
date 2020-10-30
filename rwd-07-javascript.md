@@ -2,7 +2,7 @@
 
 There are two pieces of JavaScript we would like you to add to your site. The first, the ‘time based message’ code uses JavaScript to modify the HTML of the page. The second, the ‘click to change’ code combines JavaScript, HTML and CSS - all 3 of the languages we have studied this year.
 
-## Task 1: Adding the time-based message code
+## Task 1 Adding the time-based message code
 
 The [initial state of the code is available on this codepen](https://codepen.io/wilsondmmu/pen/43ef68f25d5275d02fa51d9e0298b419). Start by reading through the code in the JavaScript window and following along each line from top to bottom.
 
@@ -51,7 +51,7 @@ If you’re a confident JavaScript coder, you might think about trying some of t
 - Add more message options
 - Anything else you think might be of use to a site visitor: just make sure that you are _progressively enhancing_ the page, and that users without JavaScript won't be unduly penalised compared to users who do have JavaScript turned on.
 
-## Task 2: Adding the click to change code
+## Task 2 Adding the click to change code
 
 ### Implementing the code
 
