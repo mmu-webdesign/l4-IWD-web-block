@@ -25,6 +25,22 @@ Complete the site as per the brief before attempting to create additional elemen
 
 >Do not remove elements created by the brief as you will be marked on these. It's obviously pointless adding something yet losing marks for the basics (because you deleted it).
 
+## Let us know what you've added
+
+As it won't always be easy for us to spot any additional elements to your coding when we are marking your work, please list any additions in a comment at the top of `layout.css`. Such as:
+
+```
+/* TEMPLATE STYLESHEET */
+
+/* Additional 
+
+1. 
+2. 
+
+*/
+
+```
+
 ## Additional
 
 The following are suggested areas of enhancement. None are mandatory for this assignment. We would not expect a student to implement everyone of these suggestions. 
