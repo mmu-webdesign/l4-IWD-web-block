@@ -51,7 +51,7 @@ All of these elements expand beyond the taught unit. Always talk to tutors to ge
 * [Enhanced media query](#Enhanced-media-query)
 * [CSS Dark Mode ](#CSS-Dark-Mode)
 * [CSS Blends ](#CSS-Blends)
-* [CSS Transitions and animation](#CSS-Transitions-and-animation)
+* [CSS Transitions, transforms and animation](#CCSS-Transitions,-transforms-and-animation)
 * [CSS Grid](#CSS-Grid) 
 * [Responsive menu](#Responsive-menu)
 * [More flexbox](#More-flexbox)
@@ -63,10 +63,10 @@ All of these elements expand beyond the taught unit. Always talk to tutors to ge
 * [Video hero](#Video-hero)
 * [Original illustrations](#Original-illustrations)
 * [Personal logo](#Personal-logo)
-* [JavaScript](#javascript)
-* [Responsive images](#responsive-images)
-* [Sticky navigation](#sticky-navigation)
-* [Video element](#video-element)
+* [JavaScript](#JavaScript)
+* [Responsive images](#Responsive-images)
+* [Sticky navigation](#Sticky-navigation)
+* [Video element](#Video-element)
 * [Anything else?](#Anything-else?)
 
 ## Additional HTML elements
@@ -128,7 +128,7 @@ Learn more about Flexbox:
 - [Flexbox defense](http://www.flexboxdefense.com/)
 - [A complete guide to Flexbox from CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-### Flexbox without flexbox
+## Flexbox without flexbox
 
 We are getting into the area of supporting older browsers. You don't have to do this with your assignment, but if you're interested read MDN's article [Backwards Compatibility of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Backwards_Compatibility_of_Flexbox).
 
