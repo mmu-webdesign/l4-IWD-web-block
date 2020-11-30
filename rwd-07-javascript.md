@@ -11,15 +11,6 @@ There are two ways of adding the initial code:
 1. _Inline_, which adds more code, in a different language, to an already busy page, which can confuse your text editor
 2. Or as a separate JavaScript file, keeping the code separate in your editor, and making it easier to add updates and debug.
 
-### Adding the code inline
-
-- Go to the bottom of your **HTML** page (JavaScript **cannot** be added to CSS files)
-- Just before the ending `<body>` tag, create a `<script></script>` tag
-- Go to the codepen above
-- Copy the code in the JS box
-- Paste this code in between the `<script>` and `</script>` tag
-- Refresh the HTML page: the code should now run.
-
 ### Adding the code as a separate file (recommended)
 
 - Go to the bottom of your HTML page (JavaScript cannot be added to CSS files)
@@ -34,16 +25,26 @@ There are two ways of adding the initial code:
 - In this example it would look like this: `<script src="js/time.js"></script>`
 - Refresh the HTML page: the code should now run.
 
+### Adding the code inline
+
+- Go to the bottom of your **HTML** page (JavaScript **cannot** be added to CSS files)
+- Just before the ending `<body>` tag, create a `<script></script>` tag
+- Go to the codepen above
+- Copy the code in the JS box
+- Paste this code in between the `<script>` and `</script>` tag
+- Refresh the HTML page: the code should now run.
+
 ### Problems you may run into
 
-- Old browsers might not run this code: if so, update your browser if possible
+- If you've removed or changed the code in your contact me section (e.g. changed the `<h2>` to a `<h3>`) you need to update this JavaScript to reflect your changes.
 - Internet Explorer may not run the code if the HTML page is not online: Chrome and Firefox seem to be fine
+- Old browsers might not run this code: if so, update your browser if possible
 - Don't add this code to the `<head>` of your page, as the DOM - defined in the lecture – needs to be created before the code can work correctly
 - Remember you have the console available in the web developer inspector in Chrome and Firefox to help if you are having problems - check the network tab and the console tab for errors.
 
 ### Things to do to customise the code for your site
 
-If you’re a confident JavaScript coder, you might think about trying some of these:
+If you’re a confident JavaScript coder, and you have time, you might think about trying some of these:
 
 - Change the message
 - Change the hours
@@ -55,13 +56,15 @@ If you’re a confident JavaScript coder, you might think about trying some of t
 
 ### Implementing the code
 
-The code you’re implementing is [available in this CodePen](https://codepen.io/wilsondmmu/pen/mdExMwb). Begin by trying out the interaction and studying the CSS and JavaScript - the reason why this code works is that the JavaScript is adding a class to the `<html>` element which the CSS then follows.
+The code you’re implementing is [available in this CodePen](https://codepen.io/wilsondmmu/pen/mdExMwb). Begin by trying out the interaction and studying the CSS and JavaScript - the reason why this code works is that the JavaScript is adding a class to the `<html>` element which the CSS then matches.
 
-1. Copy the `<span class="footer-switch" id="switch"></span>` and add it to your HTML. You can place it wherever you want to (we would suggest the footer) and use the class to style it.
+1. Copy the `<span class="footer-switch" id="switch"></span>` and add it to your HTML. **This is important as it is the code the JavaScript is looking for to create your button.** You can place it wherever you want to (we would suggest the footer) and use the class to style it.
 
-2. Copy the JavaScript code and paste it into your JavaScript file. **Until you write some CSS you won’t see anything changing.**
+2. Copy the JavaScript code in the CodePen and paste it into your JavaScript file. **Until you write some CSS you won’t see anything changing.** If you open the web inspector you should see the `<html>` tag at the top of your page have the `.js-modify-page` class added or removed as you click the button.
 
-3. Use the CSS code in the CodePen as a starting point to change something - large or small - about your site when the button is clicked. You might just change the colours of your headings, or change the typeface, or do something more complex like implement a dark mode - it’s up to you.
+3. If everything is working correctly you can now override your normal CSS by writing more CSS rules that start `.js-modify-page`, e.g. `.js-modify-page p { color: red; }` and these rules will only apply when the button has been clicked.
+
+4. You can use the CSS code in the CodePen as a starting point to style the button and change something - large or small - about your site when the button is clicked. You might just change the colours of your headings, or change the typeface, or do something more complex like implement a dark mode - it’s up to you.
 
 ### Adding things to the code
 
