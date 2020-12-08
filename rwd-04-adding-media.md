@@ -7,7 +7,7 @@
 * [Task 3 - Background blend mode](#Task-3---Background-blend-mode) 
 * [Task 4 - The header-content](#Task-4---The-header-content)
 * [Task 5 - Using figure and figcaption](#Task-5---Using-figure-and-figcaption)
-* [Task 6 - Introduction to media queries](#Task-6---introduction-to-media-queries)
+* [Task 6 - Introduction to media queries](#Task-6---Introduction-to-media-queries)
 * [Task 7 - A responsive image gallery](#Task-7---A-responsive-image-gallery)
 * [Checklist](#RWD-4---Checklist)
 
