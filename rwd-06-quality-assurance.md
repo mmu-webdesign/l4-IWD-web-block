@@ -154,7 +154,7 @@ Wew will be asking you to submit the `portfolio` folder, renamed with your ID an
 -   Step by step implementation of the required CSS including flexbox for layout.
 -   Efficient (read minimal) CSS.
 -   Credit any lines of non-original CSS.
--   Additional elements may include extended layout (for example putting your about section (text/media) into columns or rows with flexbox or floats. Placement of social media icons, perhaps a home-made icon and such to enhance your page. [See more under additional](rwd-08-additional.md). 
+-   Additional elements may include extended layout (for example putting your about section (text/media) into columns or rows with flexbox or floats. Placement of social media icons, perhaps a home-made icon and such to enhance your page. [See more under additional](https://55060509.webdevmmu.uk/book/rwd-book/index.php?book=1&location=7). 
 
 ## Things to do 
 
