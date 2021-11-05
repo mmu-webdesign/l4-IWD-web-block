@@ -60,7 +60,7 @@ You have two options. You can switch from one to the other at any time.
 ### Instructions for Replit.com
 
 * Log-in to Replit.com
-* Go to [https://replit.com/@wilsonderrenmmu/IWD-template](the replit.com code) with your web browser
+* Go to [the replit.com code](https://replit.com/@wilsonderrenmmu/IWD-template) with your web browser
 * Choose ‘Fork repl’ and the code will be copied into your Replit.com area
 * Click ‘Run’ to see updates to your code
 * You can invite the tutors to your code and we can leave comments on your work
