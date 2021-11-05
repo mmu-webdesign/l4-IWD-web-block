@@ -28,7 +28,9 @@ Derren's demonstration site - The Responsive Portfolio.
 - Download the template portfolio code from GitHub and extract to your computer.
 > **Download** - [The IWD Template Portfolio Site](https://github.com/mmu-webdesign/l4-IWD-web-term-2-template)
 
-### Instructions
+- OR [‘fork’ the code from the Replit.com website](https://replit.com/@wilsonderrenmmu/IWD-template). **Using this method will make it easier to test your website**
+
+### Instructions for GitHub
 - Select the green _Clone or download_ button, select _Download ZIP_. 
 - A file called `l4-IWD-web-term-2-template-master.zip` will download.
 - Locate the ZIP file and extract the contents.
@@ -42,7 +44,7 @@ Derren's demonstration site - The Responsive Portfolio.
 
 [VIDEO - Demonstration of downloading and extracting the files, defining the site in Visual Studio Code, testing and viewing in a browser.](https://youtu.be/h5Tvh7dPPxs) 
 
-#### Key points
+#### Key points for GitHub
 
 - Put the folder `portfolio` somewhere safe.
 
@@ -50,11 +52,24 @@ Derren's demonstration site - The Responsive Portfolio.
 
 ---
 
+
+### Instructions for Replit.com
+
+* Log-in to Replit.com
+* Go to [https://replit.com/@wilsonderrenmmu/IWD-template](the replit.com code) with your web browser
+* Choose ‘Fork repl’ and the code will be copied into your Replit.com area
+* Click ‘Run’ to see updates to your code
+* You can invite the tutors to your code and we can leave comments on your work
+* Your work is autosaved
+* You can view your work by using the web address in the top right hand box above the web view in Replit.com, for example [https://IWD-template.wilsonderrenmmu.repl.co](https://IWD-template.wilsonderrenmmu.repl.co).
+
+---
+
 ### Test the files
 
-> **DO NOT use Internet Explorer or MicroSoft Edge browsers**. Use Chrome and/or Firefox. Safari is OK, but can cause some issues.
+> **DO NOT use Internet Explorer 11**. Use Chrome and/or Firefox. Safari is OK, but can cause some issues.
 
-- Test `index.html` in a browser. 
+- Test `index.html` displays some content. At the moment it won’t be totally responsive, but if you are just adding HTML content it won’t be far off.
 - Check `layout.css` is working by adding the line: 
 
 ```
