@@ -25,10 +25,14 @@ Derren's demonstration site - The Responsive Portfolio.
 
 ## Task 1 - Getting started
 
+You have two options. You can switch from one to the other at any time.
+
 - Download the template portfolio code from GitHub and extract to your computer.
 > **Download** - [The IWD Template Portfolio Site](https://github.com/mmu-webdesign/l4-IWD-web-term-2-template)
+- OR 
+> **Fork** - [‘fork’ the code from the Replit.com website](https://replit.com/@wilsonderrenmmu/IWD-template). 
 
-- OR [‘fork’ the code from the Replit.com website](https://replit.com/@wilsonderrenmmu/IWD-template). **Using this method will make it easier to test your website**
+**Using the Replit.com method will make it easier to test your website on different devices.**
 
 ### Instructions for GitHub
 - Select the green _Clone or download_ button, select _Download ZIP_. 
