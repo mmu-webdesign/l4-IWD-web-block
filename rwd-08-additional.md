@@ -53,6 +53,8 @@ All of these elements expand beyond the taught unit. Always talk to tutors to ge
 * [CSS Blends ](#CSS-Blends)
 * [CSS Transitions, transforms and animation](#CSS-Transitions,-transforms-and-animation)
 * [CSS Grid](#CSS-Grid) 
+* [CSS Variables](#CSS-Variables)
+* [CSS Calc function](#CSS-Calc)
 * [Responsive menu](#Responsive-menu)
 * [More flexbox](#More-flexbox)
 * [Flexbox without flexbox](#Flexbox-without-flexbox)
@@ -97,7 +99,6 @@ Investigate further use of blends to enhance your design.
 
 Investigate transitions, transforms (e.g. to rotate sections or text) and animation on MDN and CSS Tricks. Successful implementations are usually very subtle (not a rolling ball or animated text). Use with care.
 
-
 ## CSS Grid
 
 Use of CSS Grid for part of the structure of your page is a great way to show off your advanced coding skills.
@@ -109,6 +110,18 @@ If you chose to go the whole way and restructure the site using grid, make sure 
 For everything about CSS Layout - see [Rachel Andrew's Grid by example](https://gridbyexample.com/).
 
 Article: [Quick! What’s the Difference Between Flexbox and Grid](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/)?
+
+## CSS variables
+
+First pioneered in SASS and other ‘transpilation’ tools (which take code written in another language and change it into valid CSS), CSS variables are a way of storing important numbers and settings for re-use. An example might be a colour you use over and over again in your stylesheet - changing this to a variable means you can change the number once and have it reflected throughout your code.
+
+Article: [Using CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) and there are many more on [CSS Tricks](https://css-tricks.com/) and elsewhere.
+
+## CSS Calc function
+
+`Calc` allows you to do mathematics in CSS. Here is an example: `height: calc(100vh - 80px);`. This allows you to mix different units and calculate changes in real time.
+
+Article: [A Complete Guide to calc() in CSS](https://css-tricks.com/a-complete-guide-to-calc-in-css/)
 
 ## Responsive menu
 
