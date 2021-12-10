@@ -1,8 +1,67 @@
-# RWD 6 - QA
+# RWD 6<br />Quality assurance and finessing the details
 
-Tips, advice and resources for checking your work.
+We’ve collected some tips, advice and resources for checking your work before submission.
 
-Things to check when going through our instructions
+## Attention to detail for your website
+
+### Image and code usage
+
+You can use images and code from other sources, as long as you have the legal right to re-use other people’s work (that’s why we recommend unsplash: [check their licencing agreement](https://unsplash.com/license) and it shows that you can use their assets with no permission).
+
+If you do use work by other people, you should reference it in the following way:
+
+#### In your HTML
+
+A HTML comment with details and a link to the original source, e.g.
+
+`<!-- CSS technique to create animation, from https://developer.mozilla.org/en-US/docs/Web/CSS/animation -->`
+
+or
+
+`<!-- Image from Unsplash: https://unsplash.com/photos/lL_g13pvgdY -->`
+
+#### In your CSS
+
+A CSS comment with details and a link to the original source, e.g.
+
+`/* CSS technique to create animation, from https://developer.mozilla.org/en-US/docs/Web/CSS/animation */`
+
+or
+
+`/* Image from Unsplash: https://unsplash.com/photos/lL_g13pvgdY */`
+
+Revalidate your code to ensure the comments haven’t made your code invalid.
+
+**Remember** You are still responsible for optimising, testing for accessibility and usability, correctly implementing and checking code or images that you integrate into your website.
+
+
+### Typography
+
+* **Steer clear of `text-align:justify`**: that is common for printed words, but online it can cause issues. Web browsers don’t hyphenate like books do, so you end up with lots of white space between words, especially at small viewport sizes.
+* **Use `text-align:center` carefully** as well. Only centre small amounts of text: long amounts of centred text are difficult to read because your eye doesn’t come back to the same point every time.
+* Have you modified the `line-height` for your content? A `line-height` set to 1 will probably mean lines are too close together for comfortable reading – 1.35 to 1.5 (depending on the typeface) will probably be better. You’ll probably find `line-height` set on the `body` selector in your CSS.
+* Related to that: `line-height` for headings can generally be closer together than body copy, as you have less text and it’s normally bigger. You could try setting `line-height` for your headings in your CSS.
+* **Why are you underlining your headings?** Underlines online are used for hyperlinks: don’t confuse people by underlining your headings. Use another visual sign that your headings are important: change the colour, size or typeface instead.
+* This might seem like the smallest thing ever: but have you got typographically correct apostrophes? A ' is not an apostrophe. Compare **Bob's website** with **Bob&#8217;s website** - the second has a typographically correct apostrophe. Replace a ' in your text with `&#8217;` to create a typographically correct apostrophe.
+* Check you have a sensible line length: no more than 65-70 characters per line. This can be controlled through CSS in many ways: normally by setting a width on the containing element, rather than setting a width on the `p` or other element that contains text.
+* You can try creating what’s called ‘responsive (or fluid) typography’ by using a new feature in CSS called `calc`. This line of code:
+
+```
+p { font-size: calc(1rem + 2vw); }
+```
+
+will allow the font size to start at a sensible size, but then increase in relation to the width of the page. [Read more about `calc` and how it works](https://css-tricks.com/a-complete-guide-to-calc-in-css/).
+
+### Colour
+
+* Colour contrast is measured between the background and foreground: this is particularly important for your header and paragraphs of text.
+* If you have kept the underlines on your links, you don’t need to think about colour contrast between your links and your body text (so keep the underlines on your links).
+* You can change the colour of hyperlink underlines separately with the `text-decoration-color` CSS property. [See how to change underline colour on MDN.com](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color).
+
+
+## Things to check
+
+Things to check when going through our instructions:
 
 * [Accessibility](#Accessibility)
 * [Checking your CSS](#Checking-your-CSS)
@@ -49,11 +108,11 @@ img { max-width: 100%; height: auto; }
 div {max-width: 600px; margin: 0 auto; padding: 0 15px;} 
 ```
 
-If so, **change it**: it should only be applying to `.container-content`, not all `div` elements
+If so, **change it**: it should only be applying to `.container-content`, not all `div` elements.
 
 ## Paragraphs
 
-Make sure there is some *breathing space* between paragraphs.
+Make sure there is some *breathing space* between paragraphs. Use `margin` or `padding` for this on paragraphs that are part of the text of your site.
 
 We often see dark blocks of text like this (and larger):
 
@@ -70,11 +129,11 @@ You can also target specific paragraphs with styles like `.about-me p {padding-b
 
 ## Margins and padding
 
-Have you added padding to your sections? The page can look cramped if you let the sections follow immediately after each other.
+Have you added padding to your sections? The page can look cramped if you let the sections follow immediately after each other. Try using the web developer tools to adjust padding. Start with `100px` and go up or down as you think looks best, then transfer that value back into your stylesheet.
 
->**Tip** - Derren prefers to set margins to zero and adjust padding. This keeps things simpler.
+>**Tip** - often web developers set margins to zero and adjust padding. This keeps things simpler.
 
-Remember to keep text away from edges. Text running up against borders/edges is hard to read.
+Remember to keep text away from any edges: the screen, the boxes that make up your webpage, borders... text running up against borders/edges is hard to read.
 
 ## CSS file order
 
@@ -83,7 +142,7 @@ Your CSS file can become rather long and complicated. It's not uncommon to start
 Derren gives you some tips on how he approaches the order of his CSS files.
 
 1. Resets
-1. Very basic styles for elements (e.g. h1, h2, p): nothing too opinionated though - no colours or styling
+1. Very basic styles for elements (e.g. `h1`, `h2`, `p`): nothing too opinionated though - no colours or styling
 1. Then break the page up into sections and style each one, e.g.
     - All styles for header
     - All styles for page sections
@@ -120,7 +179,15 @@ We have introduced you to Dev Tools in the browser. Here are some further browse
 
 ## Live preview and mobile preview
 
-Not for everyone, but worth a try. You can use Prepros to set up  a developer environment on your laptop. Prepros reloads your mobile browser automatically every time you save a file in code editor.
+Definitely worth a try before submission. 
+
+## Developing your site using Replit.com
+
+You can use the web address at the top of the page preview as a live web address - just copy it into your phone’s web browser and you should be able to see the current version of your site. [You can create a QR code of the web address](https://55060509.webdevmmu.uk/tools/make-qr-code/) if it’s hard to type into your phone.
+
+## Local development
+
+You can use Prepros to set up a developer environment on your laptop. Prepros reloads your mobile browser automatically every time you save a file in code editor, then you can use the ‘network preview’ to show your site on as many devices as you can find.
 
 *   [Prepros.io](https://prepros.io/)  
 
@@ -147,27 +214,24 @@ Wew will be asking you to submit the `portfolio` folder, renamed with your ID an
 -   You template portfolio page (with limited adjustment of HTML provided).
 -   High quality original text and media.
 -   Text grammar and spell checked.
--   Media optimised for the web.
--   Metadata - page title and meta description relevant to your portfolio.
--   Design - attractive, appropriate use of typography, design and colour. 
--   Mobile first approach to CSS and media queries.
+-   Media optimised for the web. [Send your image files through TinyJPG](https://tinyjpg.com/) to be completely sure.
+-   Metadata: please add page title and a meta description which are relevant to your portfolio.
+-   Design: we want an attractive, appropriate use of typography, design and colour. One tip: make important things BIG. Really big - the more contrast the better. Also use more padding than you think you need!
+-   We want to see a mobile first approach to CSS and media queries.
 -   Step by step implementation of the required CSS including flexbox for layout.
--   Efficient (read minimal) CSS.
+-   Efficient (read minimal), organised CSS.
 -   Credit any lines of non-original CSS.
 -   Additional elements may include extended layout (for example putting your about section (text/media) into columns or rows with flexbox or floats. Placement of social media icons, perhaps a home-made icon and such to enhance your page. [See more under additional](https://55060509.webdevmmu.uk/book/rwd-book/index.php?book=1&location=7). 
 
 ## Things to do 
 
--   Run an audit using Dev Tools in Chrome.  
--   Validation HTML & CSS
+-   Validate your HTML and CSS
 -   Accessibility audit (see links above)
--   Usability - get friends and family to test your page.  
-
+-   Usability: please get friends and family to test your page.  
 -   Design - test your design using the 5 second test for designs on colleagues, friends and family - [https://fivesecondtest.com/](https://fivesecondtest.com/) - see [https://www.nngroup.com/articles/testing-visual-design/](https://www.nngroup.com/articles/testing-visual-design/)
 -   Are all of your images optimised for the web?
 -   Colour contrast - have you made the right choices with your colours?
 -   SEO - have you written good metadata and content with SEO in mind? See [Shaun Anderson's SEO tutorial for some good advice](https://www.hobo-web.co.uk/seo-tutorial/#page-title-element).  
-
 
 ## Social media
 
