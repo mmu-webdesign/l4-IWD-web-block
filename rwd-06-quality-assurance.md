@@ -2,9 +2,37 @@
 
 We’ve collected some tips, advice and resources for checking your work before submission.
 
-## Attention to detail for your website
 
-### Image and code usage
+## TL;DR Checklist before submission
+
+**You should have:**
+
+-   You template portfolio page (with limited adjustment of HTML provided)
+-   High quality original text and media
+-   Text grammar and spell checked
+-   Media optimised for the web. [Send your image files through TinyJPG](https://tinyjpg.com/) to be completely sure
+-   Metadata: **please** add a page title and a meta description which are relevant to your portfolio
+-   Design: we want an attractive, appropriate use of typography, design and colour. One tip: make important things BIG. Really big - the more contrast the better. Also use more padding than you think you need!
+-   We want to see a mobile first approach to CSS and media queries
+-   Step by step implementation of the required CSS including flexbox for layout
+-   Efficient (read minimal), organised CSS
+-   Credit any lines of non-original CSS: see below under ‘Credit image and code usage’
+-   Additional elements may include extended layout (for example putting your about section (text/media) into columns or rows with flexbox or floats. Placement of social media icons, perhaps a home-made icon and such to enhance your page. [See more under additional](https://55060509.webdevmmu.uk/book/rwd-book/index.php?book=1&location=7). 
+
+## Things to do before you submit
+
+- Validate your HTML and CSS
+- Check your site with multiple browsers and devices
+- Accessibility audit (see links above)
+- Usability: please get friends and family to test your page **on lots of devices!**
+- Design - test your design using the 5 second test for designs on colleagues, friends and family - [https://fivesecondtest.com/](https://fivesecondtest.com/) - see [https://www.nngroup.com/articles/testing-visual-design/](https://www.nngroup.com/articles/testing-visual-design/)
+- Are all of your images optimised for the web?
+- Colour contrast - have you made the right choices with your colours?
+- SEO - have you written good metadata and content with SEO in mind? See [Shaun Anderson's SEO tutorial for some good advice](https://www.hobo-web.co.uk/seo-tutorial/#page-title-element). 
+
+## Adding that final polish to your website
+
+### Credit image and code usage
 
 You can use images and code from other sources, as long as you have the legal right to re-use other people’s work (that’s why we recommend unsplash: [check their licencing agreement](https://unsplash.com/license) and it shows that you can use their assets with no permission).
 
@@ -35,7 +63,7 @@ Revalidate your code to ensure the comments haven’t made your code invalid.
 **Remember** You are still responsible for optimising, testing for accessibility and usability, correctly implementing and checking code or images that you integrate into your website.
 
 
-### Typography
+### Details in your typography
 
 * **Steer clear of `text-align:justify`**: that is common for printed words, but online it can cause issues. Web browsers don’t hyphenate like books do, so you end up with lots of white space between words, especially at small viewport sizes.
 * **Use `text-align:center` carefully** as well. Only centre small amounts of text: long amounts of centred text are difficult to read because your eye doesn’t come back to the same point every time.
@@ -52,16 +80,19 @@ p { font-size: calc(1rem + 2vw); }
 
 will allow the font size to start at a sensible size, but then increase in relation to the width of the page. [Read more about `calc` and how it works](https://css-tricks.com/a-complete-guide-to-calc-in-css/).
 
-### Colour
+### Colour guidance
 
 * Colour contrast is measured between the background and foreground: this is particularly important for your header and paragraphs of text.
 * If you have kept the underlines on your links, you don’t need to think about colour contrast between your links and your body text (so keep the underlines on your links).
 * You can change the colour of hyperlink underlines separately with the `text-decoration-color` CSS property. [See how to change underline colour on MDN.com](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color).
 
+### Javascript issues
 
-## Things to check
+**Multiple JS files are fine for this submission.** Modern web development uses automated ‘build tools’ to package up a website into a fast loading set of files, including automatically joining files together.
 
-Things to check when going through our instructions:
+## Even more things to review
+
+Everything seems OK? Have you considered:
 
 * [Accessibility](#Accessibility)
 * [Checking your CSS](#Checking-your-CSS)
@@ -152,9 +183,9 @@ Derren gives you some tips on how he approaches the order of his CSS files.
 1. The last thing in the stylesheet will probably be the footer.
 1. Use lots of comments in your stylesheet that break up the code and label the page sections.
 
-## SEO - your content
+## The SEO of your content
 
-On-site SEO refers to optimizing both the content and HTML source code of a page. The content you have created will also add to the value and 'findability' of your site.
+On-site SEO (Search Engine Optimisation) refers to optimizing both the content and HTML source code of a page. The content you have created will also add to the value and 'findability' of your site.
 
 The [MOZ SEO Guide](https://moz.com/learn/seo/on-site-seo) explains:
 
@@ -179,13 +210,19 @@ We have introduced you to Dev Tools in the browser. Here are some further browse
 
 ## Live preview and mobile preview
 
-Definitely worth a try before submission. 
+Definitely worth a try before submission. Especially check things like tables and images work without problems on smaller screens ([Strategies for making tables work responsively](https://css-tricks.com/responsive-data-tables/)). 
 
 ## Developing your site using Replit.com
 
 You can use the web address at the top of the page preview as a live web address - just copy it into your phone’s web browser and you should be able to see the current version of your site. [You can create a QR code of the web address](https://55060509.webdevmmu.uk/tools/make-qr-code/) if it’s hard to type into your phone.
 
 ## Local development
+
+### Mobile view in Visual Studio Code
+
+Try out [the Mobile View extension](marketplace.visualstudio.com/items?itemName=cirlorm.mobileview) which installs into Visual Studio Code and shows you a preview of your code on a mobile device. You’re still interacting with your page using a mouse and keyboard, which is very different to actually using a mobile phone.
+
+### Prepros
 
 You can use Prepros to set up a developer environment on your laptop. Prepros reloads your mobile browser automatically every time you save a file in code editor, then you can use the ‘network preview’ to show your site on as many devices as you can find.
 
@@ -206,32 +243,7 @@ An important aspect of web development is file management. A clean, well structu
 You should use and maintain the folder structure provided. If all of your files are sitting on the root of your site, there is something wrong!
 
 Wew will be asking you to submit the `portfolio` folder, renamed with your ID and name. E.g. `22334455-wilson.zip`
-
-## Check list
-
-**You should have:**
-
--   You template portfolio page (with limited adjustment of HTML provided).
--   High quality original text and media.
--   Text grammar and spell checked.
--   Media optimised for the web. [Send your image files through TinyJPG](https://tinyjpg.com/) to be completely sure.
--   Metadata: please add page title and a meta description which are relevant to your portfolio.
--   Design: we want an attractive, appropriate use of typography, design and colour. One tip: make important things BIG. Really big - the more contrast the better. Also use more padding than you think you need!
--   We want to see a mobile first approach to CSS and media queries.
--   Step by step implementation of the required CSS including flexbox for layout.
--   Efficient (read minimal), organised CSS.
--   Credit any lines of non-original CSS.
--   Additional elements may include extended layout (for example putting your about section (text/media) into columns or rows with flexbox or floats. Placement of social media icons, perhaps a home-made icon and such to enhance your page. [See more under additional](https://55060509.webdevmmu.uk/book/rwd-book/index.php?book=1&location=7). 
-
-## Things to do 
-
--   Validate your HTML and CSS
--   Accessibility audit (see links above)
--   Usability: please get friends and family to test your page.  
--   Design - test your design using the 5 second test for designs on colleagues, friends and family - [https://fivesecondtest.com/](https://fivesecondtest.com/) - see [https://www.nngroup.com/articles/testing-visual-design/](https://www.nngroup.com/articles/testing-visual-design/)
--   Are all of your images optimised for the web?
--   Colour contrast - have you made the right choices with your colours?
--   SEO - have you written good metadata and content with SEO in mind? See [Shaun Anderson's SEO tutorial for some good advice](https://www.hobo-web.co.uk/seo-tutorial/#page-title-element).  
+ 
 
 ## Social media
 
