@@ -1,6 +1,8 @@
 # RWD 10 - Marking descriptors for your work
 
-All descriptions go from worst (0%) to best (85–100%).
+All descriptions go from worst (0%) to best (85–100%). Trying to mark your own work is a good way of checking if you’ve met all the criteria of any assessment.
+
+The [Intro to Web assessment 2 marksheet is available on moodle](https://moodle.mmu.ac.uk/pluginfile.php/5085486/mod_resource/content/0/iwd-acw2-marksheet.pdf) (link will only work if you’re logged in to moodle)
 
 ## Metadata
 
