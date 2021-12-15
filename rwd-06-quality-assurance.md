@@ -7,7 +7,7 @@ We’ve collected some tips, advice and resources for checking your work before 
 
 **You should have:**
 
--   You template portfolio page (with limited adjustment of HTML provided)
+-   Your template portfolio page (with limited adjustment of HTML provided)
 -   High quality original text and media
 -   Text grammar and spell checked
 -   Media optimised for the web. [Send your image files through TinyJPG](https://tinyjpg.com/) to be completely sure
@@ -22,13 +22,15 @@ We’ve collected some tips, advice and resources for checking your work before 
 ## Things to do before you submit
 
 - Validate your HTML and CSS
+- Use semantic HTML wisely. Add links to external websites, remove `<br>` tags that are used to create space (CSS is much better for that), and generally show how you’ve mastered the tags we learnt in Block 1
 - Check your site with multiple browsers and devices
 - Accessibility audit (see links above)
 - Usability: please get friends and family to test your page **on lots of devices!**
 - Design - test your design using the 5 second test for designs on colleagues, friends and family - [https://fivesecondtest.com/](https://fivesecondtest.com/) - see [https://www.nngroup.com/articles/testing-visual-design/](https://www.nngroup.com/articles/testing-visual-design/)
 - Are all of your images optimised for the web?
 - Colour contrast - have you made the right choices with your colours?
-- SEO - have you written good metadata and content with SEO in mind? See [Shaun Anderson's SEO tutorial for some good advice](https://www.hobo-web.co.uk/seo-tutorial/#page-title-element). 
+- SEO - have you written good metadata and content with SEO in mind? See [Shaun Anderson's SEO tutorial for some good advice](https://www.hobo-web.co.uk/seo-tutorial/#page-title-element)
+- **Check the size of your final zip file**: if all your images are optimised, it’s unlikely your final zip file that you upload to moodle will be over 2MB.
 
 ## Adding that final polish to your website
 
@@ -86,9 +88,16 @@ will allow the font size to start at a sensible size, but then increase in relat
 * If you have kept the underlines on your links, you don’t need to think about colour contrast between your links and your body text (so keep the underlines on your links).
 * You can change the colour of hyperlink underlines separately with the `text-decoration-color` CSS property. [See how to change underline colour on MDN.com](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color).
 
+### Testing your overall design
+
+Try taking and reviewing a full page screenshot to judge how your design changes from section to section. Does the whole site have an underlying idea and style? Are there jarring changes, or changes that don’t make sense when the site is seen as a whole?
+
+* [Take full page screenshots on Firefox](https://support.mozilla.org/en-US/kb/take-screenshots-firefox?redirectslug=firefox-screenshots&redirectlocale=en-US)
+* [Take full page screenshots on Chrome](https://www.howtogeek.com/423558/how-to-take-full-page-screenshots-in-google-chrome-without-using-an-extension/)
+
 ### Javascript issues
 
-**Multiple JS files are fine for this submission.** Modern web development uses automated ‘build tools’ to package up a website into a fast loading set of files, including automatically joining files together.
+**Multiple JS files are fine for this submission.** Modern web development uses automated ‘build tools’ to package up a website into a fast loading set of files, including automatically joining files together. We are also OK with camelCase for JS-related files and variable names.
 
 ## Even more things to review
 
