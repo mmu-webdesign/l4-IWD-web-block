@@ -229,7 +229,7 @@ You can use the web address at the top of the page preview as a live web address
 
 ### Mobile view in Visual Studio Code
 
-Try out [the Mobile View extension](marketplace.visualstudio.com/items?itemName=cirlorm.mobileview) which installs into Visual Studio Code and shows you a preview of your code on a mobile device. You’re still interacting with your page using a mouse and keyboard, which is very different to actually using a mobile phone.
+Try out [the Mobile View extension](https://marketplace.visualstudio.com/items?itemName=cirlorm.mobileview) which installs into Visual Studio Code and shows you a preview of your code on a mobile device. You’re still interacting with your page using a mouse and keyboard, which is very different to actually using a mobile phone.
 
 ### Prepros
 
